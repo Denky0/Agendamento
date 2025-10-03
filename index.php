@@ -7,7 +7,7 @@
     <title>Agendamento Médico</title>
 </head>
 <body>
-    <body class="bg-primary">
+    <body class="bg-light">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">Início</a>
@@ -24,6 +24,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php?tela=consulta">🕮 Cadastrar Agendamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?tela=cadastroM">🧑‍⚕️ Médicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?tela=cadastroP">😷 Pacientes</a>
                     </li>
                 </ul>
             </div>
@@ -43,6 +49,14 @@
 
                 case 'consulta':
                     include('cadastrarConsulta.php');
+                    break;
+
+                case 'cadastroM';
+                    include('listarCadastroM.php');
+                    break;
+
+                case 'cadastroP';
+                    include('listarCadastroP.php');
                     break;
 
                 default:

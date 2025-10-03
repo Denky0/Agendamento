@@ -2,6 +2,7 @@
 <div class="row">
 
 <?php
+
     include 'conexao.php';
     $consultas = $conexao->query('select * from consulta');
 
@@ -17,6 +18,7 @@
         <a href='delete.php?numero=$consulta->numero' class='btn btn-danger'>Deletar</a>
         </div>
     </div>"
+    
 ?>
 
 </div>

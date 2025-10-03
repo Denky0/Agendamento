@@ -20,5 +20,5 @@
             <input type="text" class="form-control mb-3" name="descricao" placeholder="Descrição da Consulta">
         </div>
     </div>
-    <input type="submit" class="btn btn-success col-12" value="Cadastrar">
+    <input type="submit" class="btn btn-primary col-12" value="Cadastrar">
 </form>

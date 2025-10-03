@@ -14,5 +14,5 @@
             <input type="date" class="form-control mb-3" name="aniversario">
         </div>
     </div>
-    <input type="submit" class="btn btn-success col-9" value="Cadastrar">
+    <input type="submit" class="btn btn-primary col-9" value="Cadastrar">
 </form>
