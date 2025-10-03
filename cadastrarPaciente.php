@@ -2,7 +2,7 @@
 <form action="inserirPaciente.php">
     <div class="row">
         <div class="col-2">
-            <input type="text" class="form-control mb-2" name="cpf" placeholder="CPF do Paciente">
+            <input type="text" class="form-control mb-2" name="cpf" placeholder="CPF do Paciente" required>
         </div>
         <div class="col-3">
             <input type="text" class="form-control mb-2" name="nome" placeholder="Nome do Paciente">

@@ -2,7 +2,7 @@
 <form action="inserirConsulta.php">
     <div class="row">
         <div class="col-2">
-            <input type="number" class="form-control mb-2" name="numero" placeholder="Número da Consulta">
+            <input type="number" class="form-control mb-2" name="numero" placeholder="Número da Consulta" required>
         </div>
         <div class="col-2">
             <input type="date" class="form-control mb-2" name="data" placeholder="Data da Consulta">
